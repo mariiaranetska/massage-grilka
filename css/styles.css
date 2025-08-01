@@ -13,7 +13,6 @@
 body {
     font-family: 'Montserrat', sans-serif;
     color: #fff;
-    background: #000;
 }
 
 .container {
@@ -46,6 +45,10 @@ body {
     border: 1px solid #E3A324;
     border-radius: 20px;
     padding: 14px 38px;
+}
+.nav .btn-outline:hover{
+    background: #C9570A;
+    transition: 0.5s ease-out;
 }
 
 .hero-content {
@@ -186,14 +189,19 @@ body {
     line-height: normal;
 }
 
+.btn-secondary:hover{
+    background: #C9570A;
+    transition: 0.5s ease-out;
+}
+
 .hero-image img {
     max-width: 598px;
     height: auto;
 }
 
 .about-product{
-    display: flex;
-    background: #FFFFFF;
+    background-image: url("../img/fon2.png");
+    margin-bottom: 80px;
 }
 
 h3{
@@ -214,6 +222,7 @@ h3{
     font-weight: 600;
     line-height: normal;
     text-transform: uppercase;
+    margin-bottom: 36px;
 }
 
 .d-flex{
@@ -227,12 +236,14 @@ h3{
 
 }
 .about-img-1{
-    max-width: 260px;
+    max-width: 264px;
     margin-top: 120px;
+    margin-right: 148px;
+    margin-bottom: 84px;
 }
 
 .about-img-2{
-    max-width: 312px;
+    display: none;
 }
 
 .about-text{
@@ -242,6 +253,7 @@ h3{
     font-style: normal;
     font-weight: 400;
     line-height: 32px;
+    margin-bottom: 48px;
 }
 .about-text-large{
     color: #393434;
@@ -251,11 +263,377 @@ h3{
     font-weight: 400;
     line-height: normal;
     text-transform: uppercase;
+    margin-bottom: 24px;
 }
-/*
-.img-back-about{
+
+.about-text-small{
+    color: #393434;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    margin-bottom: 12px;
+}
+
+.freedom-section {
+    background: #363231;
+    stroke-width: 1px;
+    stroke: #000;
+    max-width: 800px;
+    border-radius: 20px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    text-align: center;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+}
+
+.container {
     max-width: 1200px;
+    margin: 0 auto;
 }
 
- */
+.freedom-title {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: #fff;
+    text-transform: uppercase;
+    text-shadow: 0 2px 5px rgba(0,0,0,0.3);
+}
 
+.freedom-gallery {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.freedom-item {
+    border: 2px solid #f1793f;
+    border-radius: 12px;
+    overflow: hidden;
+    background: #fff;
+    max-width: 180px;
+}
+
+.freedom-item img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.freedom-desc {
+    font-size: 16px;
+    color: #ddd;
+    line-height: 1.5;
+}
+
+.benefits-section{
+    background-image: url("../img/banner4.png");
+    margin-bottom: 160px;
+}
+
+.benefits-title{
+    color: #53565D;
+    font-family: "Montserrat", sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.benefits-title-bottom{
+    color: #FC7D27;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.benefit-text{
+    color: #393434;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    margin-top: 200px;
+    margin-bottom: 180px;
+    padding: 40px 20px;
+    margin-left: 590px;
+}
+
+.prices-bottom{
+    text-align: center;
+    letter-spacing: 0.5px;
+    display: flex;
+    gap: 30px;
+    font-family: "Montserrat", sans-serif;
+    color: #53565D;
+    justify-content: center;
+    line-height: 36px;
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+.label-black{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+.old-price-black{
+    text-decoration-line: line-through;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+}
+.new-price-black{
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.btn-primary-white{
+    color: #FFF;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 400;
+    line-height: normal;
+    padding: 28px 58px;
+    border-radius: 20px;
+    background: linear-gradient(87deg, #DC6B30 17.99%, #E4864F 49.64%, #FFBE82 72.7%, #E49031 93.02%);
+    margin: 0 auto;
+    display: block;
+    max-width: 280px;
+}
+.btn-primary-white:hover {
+    opacity: 0.9;
+}
+
+.features-section {
+    position: relative;
+    background: #2c2420;
+    color: #fff;
+    padding: 40px 20px;
+    border-radius: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+    margin-bottom: 100px;
+}
+
+.features-title {
+    text-align: center;
+    font-size: 32px;
+    color: #333;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+
+.features-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: space-between;
+    padding: 20px 20px;
+}
+
+.features-images {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    min-width: 300px;
+    margin-top: 20px;
+}
+
+.feature-img {
+    overflow: hidden;
+}
+
+.feature-img img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.features-list {
+    flex: 1;
+    min-width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.feature-item {
+    display: flex;
+    gap: 15px;
+    align-items: flex-start;
+    font-size: 16px;
+    color: #eee;
+}
+
+.feature-item strong {
+    color: #FFF;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.feature-item{
+    color: #FFF;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.feature-item-p p{
+    color: #FFF;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 8px;
+}
+
+.icon {
+    font-size: 24px;
+    color: #f1793f;
+}
+
+.features-title{
+    color: #53565D;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+    position: absolute;
+    left: 344px;
+    top: -90px;
+}
+
+.video-section {
+    background-image: url("../img/fon-video.png");
+    text-align: center;
+}
+
+.video-title {
+    color: #53565D;
+    font-family: "Montserrat", sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.video-title .orange {
+    color: #FC7D27;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.video-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+    align-items: flex-start;
+    margin-bottom: 100px;
+    margin-top: 50px;
+}
+
+.video-features {
+    text-align: left;
+    flex: 1;
+    min-width: 300px;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+    list-style: none;
+    padding: 0;
+    margin-top: 200px;
+}
+
+.video-features li {
+    color: #393434;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+    font-variant: small-caps;
+}
+
+
+.video-wrapper {
+    max-width: 574px;
+    aspect-ratio: 560 / 540;
+    display: flex;
+    margin-top: 26px;
+}
+
+.reviews-title{
+    color: #FC7D27;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+}
+
+.reviews-section{
+    margin-top: 100px;
+}
+
+.stars {
+    display: flex;
+    gap: 4px;
+    margin-top: 32px;
+    justify-content: center;
+}
+
+.stars ul {
+    display: flex;
+    gap: 4px;
+    list-style: none;
+}
+
+.reviews-section p{
+    color: #393434;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+    margin-bottom: 8px;
+}
