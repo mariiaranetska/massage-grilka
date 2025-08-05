@@ -454,7 +454,7 @@ margin-right: 30px;
     .three-img{
         position: absolute;
         bottom: -244px;
-        left: 0px;
+        left: 0;
     }
     .freedom-desc{
         margin-top: 268px;
@@ -527,6 +527,5 @@ margin-right: 30px;
     .delivery-with{
         font-size: 16px;
     }
-
 
 }
