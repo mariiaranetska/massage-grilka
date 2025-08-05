@@ -407,10 +407,6 @@ margin-right: 30px;
         margin-left: 68px;
         max-width: 244px;
 }
-    .sale-img{
-        display: block;
-        max-width: 100%;
-    }
     .about-product {
         background-image: url(../img/fon-mobil.png);
         margin-bottom: 30px;
@@ -445,6 +441,7 @@ margin-right: 30px;
     .freedom-item{
         flex-direction: column;
         gap: 10px;
+
     }
     .freedom-gallery{
         display: block;
@@ -453,11 +450,12 @@ margin-right: 30px;
     .three-img{
         position: absolute;
         bottom: -244px;
-        left: 0;
+        left: 0px;
     }
     .freedom-desc{
         margin-top: 268px;
     }
+
     .benefits-title {
         font-size: 28px;
         margin-bottom: 40px;
@@ -525,5 +523,6 @@ margin-right: 30px;
     .delivery-with{
         font-size: 16px;
     }
+
 
 }
