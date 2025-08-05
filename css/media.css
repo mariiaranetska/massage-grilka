@@ -445,7 +445,6 @@ margin-right: 30px;
     .freedom-item{
         flex-direction: column;
         gap: 10px;
-
     }
     .freedom-gallery{
         display: block;
@@ -459,7 +458,6 @@ margin-right: 30px;
     .freedom-desc{
         margin-top: 268px;
     }
-
     .benefits-title {
         font-size: 28px;
         margin-bottom: 40px;
